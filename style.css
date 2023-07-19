@@ -1,0 +1,41 @@
+body{
+    background-color: #4D718B;
+    font-family: 'PT Serif', serif;
+
+}
+img{
+    width: 200px;
+    
+}
+.nasa{
+    width: 300px; ;
+}
+.title-astrobiologia{
+    font-size: 50px;
+}
+.biologia{
+    /*font-family: monospace;*/
+    font-size: 20px;
+    
+}
+.title-espacial{
+   text-transform: uppercase; 
+   text-align: center;
+   font-family: cursive;
+}
+.estrellas{
+    font-size: 25px;
+    font-family: cursive;
+}
+li{
+    text-align:left;
+    font-size: 18px;
+}
+
+/* (.) el punto se utiiliza para llamar a las clases*/
+/*maximo 3 fuentes de letra*/
+/*
+selector{
+    propiedad: valor;
+}
+*/

@@ -1,0 +1,104 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laWebespacial</title>
+    <link rel="stylesheet" href="/style.css">
+    <!--stylesheet - vamos a cenctrar a la hoja de estilos-->
+    <link rel="icon" href="">
+    
+    <!--Conectar google fonts con html-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main><!--MAIN contenido principal-->
+        <h1 class="title-espacial">Webb espacial</h1>
+        <!--(img) desde un link en la web (alt:comentario sobre la imagen en cuestion)-->
+        <img src="https://blogs.nasa.gov/solarcycle25/wp-content/uploads/sites/304/2023/07/20230702_234620_1024_0131-768x768.jpg" alt="imagen sobre el sol" srcset="">
+        <!--imagen a traves de la compu-->
+        <img  class="nasa" src="/imagenes/NASA_logo.svg.png" alt="">
+
+        <!--DIV crear diviciones-->
+        <div>
+            <!--LISTAS-->
+            <h3 class="estrellas">TOP de estrellas masivas</h3>
+            <ol><!--OL -listas ordenadas-->
+                <li>R136a1, estrella hipergigante azul</li><!--li dentro del ol ya que son los items de la lista ordenad-->
+                <!--li*n multiplica los li para no estar escribiendo uno a uno-->
+                <li>Etrella de la nubulosa</li>
+                <li>Estrella pistola    </li>
+                
+                
+            </ol> 
+            <h3>Midiones espaciales</h3>
+            <ul> <!--ul list no ordenada-->
+                <li>Apollo 8</li>
+                <li>geminis</li>
+                <li>luna1</li>
+                <li>curiosity3</li>
+            </ul>    
+        </div>
+
+        <hr><!--hr divicion horizontal-->
+       
+        <!--INDICE CON ANCLAS-->
+        <!--'href' es para dar la referencia-->
+        <div>
+            <a href="#astrobiologia">astrobiologia</a>
+            <a href="#universo">Origen del universo</a>
+            <a href="#estrellas">Origen de las estrellas</a>
+        </div>
+        <h3 class="title-astrobiologia" id="astrobiologia">Astrobiologia</h3>
+        <p class="biologia">
+            La astrobiología es, como su nombre indica, la ciencia que estudia la vida en los astros. De una forma más amplia, podemos decir que es la ciencia que estudia el origen, la evolución y la distribución de la vida en el Universo. En ella, se reúnen ciencias como la Astrofísica, las Ciencias planetarias, las Ciencias atmosféricas, la Geología, la Química, la Biología evolutiva, la Biología molecular... ¡Infinitas ciencias que estudian lo que no conocemos!
+
+            Por otro lado, la Astrobiología aborda la interminable cuestión de si existe vida más allá de nuestro planeta, la Tierra. Asimismo, pretende conocer cómo podemos los humanos llegar a conocerla si es que existe. 
+        </p>
+
+        <h3 id="universo">Origen del Universo</h3> <!--'id' va a redirigir al titulo con el parrafo que se indica-->
+        <p>
+            A once años luz de nuestro Sol, dos supertierras orbitan alrededor de la enana roja más brillante de nuestro firmamento, Gliese 887. Descubiertas en uno de los sistemas planetarios más cercanos al nuestro, GJ887b y GJ887c han sido bautizados así por tener una masa entre cuatro y siete veces superior a la Tierra, pero sustancialmente menor que la de nuestros gigantes gaseosos, Urano y Neptuno.
+
+            Publicada hoy en la revista Science, esta nueva investigación internacional liderada por la Universidad de Gotinga (Alemania), ha contado con la participación del Instituto Astrofísico de Canarias (IAC) utilizando mediciones de velocidad radial para estudiar este sistema planetario.
+
+            Entre los hallazgos, los investigadores afirman que las supertierras cuentan con periodos orbitales de 9,3 y 21,8 días respectivamente, lo que supone un recorrido mucho más rápido y cercano que el que dibuja la órbita de Mercurio alrededor del Sol.
+        </p>
+
+        <h3 id="estrellas">Origen de las Estrellas</h3>
+        <p>
+            Si el planeta está allí, es al menos seis veces más grande que la Tierra, lo que hace que se llame una súper-Tierra y se necesitan 1.936 días para dar la vuelta una vez alrededor de su estrella. Eso significa que la temperatura promedio de la superficie del planeta es demasiado fría para que fluya el agua líquida.
+
+            “¿Es este planeta habitable? Bueno, no realmente, hace mucho frío ", dice Fabio Del Sordo, de la Universidad de Creta.
+
+            En el 2016, los científicos del proyecto Pale Red Dot revelaron el primer mundo conocido en órbita alrededor de Proxima Centauri, un planeta al menos 1,3 veces más grande que la Tierra, que quizás sea lo suficientemente cálido para albergar vida como sabemos que prospere en su superficie. Los científicos identificaron ese planeta, llamado Proxima Centauri b, al estudiar cómo su gravedad tira de Proxima Centauri y hace que la estrella se tambalee.
+        </p>
+
+        <!--form (form se enviara informacion)-->
+        <form action="">
+            <p>¿Cual es la edad del universo?</p>
+            <label for="">
+                <input type="text">
+                <button>Enviar</button> <!--crea un boton-->
+            </label>
+
+            <p>¿Cuantas misiones Apolo existieron?</p>
+            <label for="3 misiones"> <!--permite crear un identificador de la repueta esperada-->
+            <!--label- etiqueta para identificar cada respuesta (3 misiones)-->
+              <input type="radio" name="apolo"> 3 misiones 
+            
+            </label>
+            <label for="">
+                <input type="radio" name="apolo"> 10 misiones
+                <!--'radio crea un circulo en los formularios'-->
+            </label>
+
+            
+        </form>
+
+    </main>        
+</body>
+</html>
