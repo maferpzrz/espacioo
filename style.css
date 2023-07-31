@@ -1,41 +1,15 @@
-body{
-    background-color: #4D718B;
-    font-family: 'PT Serif', serif;
+/*main .circle{
+    width: 400px;
+    background-position: center;
+    
+}*/
+ main .title-espacial{
+    text-align: center;
+ }
 
-}
-img{
-    width: 200px;
-    
-}
-.nasa{
-    width: 300px; ;
-}
-.title-astrobiologia{
-    font-size: 50px;
-}
-.biologia{
-    /*font-family: monospace;*/
-    font-size: 20px;
-    
-}
-.title-espacial{
-   text-transform: uppercase; 
-   text-align: center;
-   font-family: cursive;
-}
+
+
 .estrellas{
-    font-size: 25px;
-    font-family: cursive;
-}
-li{
-    text-align:left;
-    font-size: 18px;
+    text-align: center;
 }
 
-/* (.) el punto se utiiliza para llamar a las clases*/
-/*maximo 3 fuentes de letra*/
-/*
-selector{
-    propiedad: valor;
-}
-*/
