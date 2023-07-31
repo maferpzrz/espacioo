@@ -1,4 +1,3 @@
 # Espacioo
 pagina descriptiva del espacio
-######pagina del espacio con html y css
-##desarollada en visual basic
+pagina del espacio con HTML5 y CSS
